@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "fixtureCount": 20,
+  "cases": [
+    {
+      "id": "danger-01-plaintext",
+      "filename": "danger-01-plaintext.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-003",
+        "MCL-004",
+        "MCL-005",
+        "MCL-006"
+      ]
+    },
+    {
+      "id": "danger-02-shell",
+      "filename": "danger-02-shell.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ],
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "danger-03-version-launchers",
+      "filename": "danger-03-version-launchers.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-010",
+        "MCL-011",
+        "MCL-012",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-010",
+          "MCL-013"
+        ],
+        [
+          "MCL-011",
+          "MCL-013"
+        ],
+        [
+          "MCL-012",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "danger-04-network",
+      "filename": "danger-04-network.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-014",
+        "MCL-015",
+        "MCL-016",
+        "MCL-024",
+        "MCL-027"
+      ]
+    },
+    {
+      "id": "danger-05-filesystem",
+      "filename": "danger-05-filesystem.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-017",
+        "MCL-018"
+      ]
+    },
+    {
+      "id": "danger-06-container",
+      "filename": "danger-06-container.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-019",
+        "MCL-020",
+        "MCL-021",
+        "MCL-027"
+      ]
+    },
+    {
+      "id": "danger-07-policy",
+      "filename": "danger-07-policy.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-022",
+        "MCL-023",
+        "MCL-025",
+        "MCL-026",
+        "MCL-028"
+      ]
+    },
+    {
+      "id": "danger-08-duplicate-jsonc",
+      "filename": "danger-08-duplicate-jsonc.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-002"
+      ]
+    },
+    {
+      "id": "danger-09-malformed",
+      "filename": "danger-09-malformed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-001"
+      ]
+    },
+    {
+      "id": "danger-10-structured-settings",
+      "filename": "danger-10-structured-settings.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-003",
+        "MCL-004",
+        "MCL-005",
+        "MCL-006",
+        "MCL-019",
+        "MCL-020",
+        "MCL-021",
+        "MCL-025",
+        "MCL-026"
+      ]
+    },
+    {
+      "id": "valid-01-local",
+      "filename": "valid-01-local.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "id": "valid-02-jsonc-string-traps",
+      "filename": "valid-02-jsonc-string-traps.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-03-runtime-auth-reference",
+      "filename": "valid-03-runtime-auth-reference.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-04-loopback",
+      "filename": "valid-04-loopback.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-05-container-digest",
+      "filename": "valid-05-container-digest.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-06-scoped-filesystem",
+      "filename": "valid-06-scoped-filesystem.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-07-environment-references",
+      "filename": "valid-07-environment-references.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-08-explicit-permissions",
+      "filename": "valid-08-explicit-permissions.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-09-public-digests",
+      "filename": "valid-09-public-digests.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    },
+    {
+      "id": "valid-10-server-array",
+      "filename": "valid-10-server-array.jsonc",
+      "category": "valid",
+      "expectedRuleIds": []
+    }
+  ]
+}

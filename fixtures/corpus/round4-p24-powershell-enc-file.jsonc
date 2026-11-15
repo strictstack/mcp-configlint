@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "pwsh",
+      "args": [
+        "-File",
+        "safe.ps1",
+        "-enc",
+        "VwByAGkAdABlAC0ATwB1AHQAcAB1AHQA"
+      ]
+    }
+  }
+}

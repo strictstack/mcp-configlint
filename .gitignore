@@ -1,0 +1,15 @@
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+.work/
+.build/
+dist/
+.toolchains/
+*.egg-info/
+*.bundle
+*.db
+*.sqlite*
+.env
+.env.*
+!.env.example

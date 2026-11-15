@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "ipv4": {
+      "url": "http://127.0.0.1:3000/mcp"
+    },
+    "ipv6": {
+      "url": "http://[::1]:3000/mcp"
+    },
+    "hostname": {
+      "url": "http://localhost:3000/mcp"
+    }
+  }
+}

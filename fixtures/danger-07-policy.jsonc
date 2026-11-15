@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "local-mcp",
+      "autoApprove": [
+        "*"
+      ],
+      "inheritEnv": true,
+      "allowedTools": [
+        "*"
+      ],
+      "forwardAuthorization": true,
+      "rejectUnauthorized": false
+    }
+  }
+}

@@ -1,0 +1,2265 @@
+{
+  "schema": "mib.data-provenance.v1",
+  "entradas": [
+    {
+      "caminho": "fixtures/corpus/manifest-round4.json",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "35cb0226e5ae110d0199264434d94d8a9aca4481dcc0dae4f6c50efdadec1f84",
+      "bytes": 36407,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/manifest.json",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d0338a9a6c19a00f6d056642e816925107bbc3b66c806f09410cd1165f609785",
+      "bytes": 25042,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-bash-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "83b1c0b09f1ac9da15ed17363582d8d60dbf78b899a72b5de24fc44a7b0a24aa",
+      "bytes": 193,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-bash-init-file.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f689a3a71b3756c6ea94d2914cb0aa18b6db22114552c92030ebf5e9030a2da4",
+      "bytes": 203,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-bash-rcfile-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "24571113aaa313caa341eb71d1df881d6c3d23670daf54a7df8b2f514557fd5e",
+      "bytes": 220,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-bash-rcfile.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e6553b78300aa7e417fad4ff8e0848f46ce45feef7a9204cfa676b4513622624",
+      "bytes": 199,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-command-append.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3057a54583dd0f3910c15ee0631ac5cd114a9de347967ecb649dc2725efa5c90",
+      "bytes": 92,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-command-input.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3228dd0da906bcb7cd649e3ddd2e66d49fe922b615a258999ac0d1750a9c2e7d",
+      "bytes": 90,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-command-redirection.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "65d27873d6e19154f406be813b774f96aea798240dcee449ac749278ef21decc",
+      "bytes": 91,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-escaped-redirection.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3d7612f84288b99272135190d15ca93a3921da152d82680f66087a7f2d9d8301",
+      "bytes": 93,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-literal-redirection.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f804135db34eef14cdd1011c6afa909bf785072e044d0182d83b3e41220c0278",
+      "bytes": 137,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-npx-attached.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "91a8bf2180dfab95b56fa4006bf2120b775c00ec2c6b27e448c6d483380e6f3a",
+      "bytes": 158,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-npx-long.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "95806c501fbe1b80599ddcefcb8515a649a2bf9b31671386dc7ae9639c1c371d",
+      "bytes": 169,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-npx-package-argv.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "8492bb67aec0d4bb97e3a75860f3e9bab733aac082ae02a08a429343f0aaf62f",
+      "bytes": 194,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-npx-package.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ad1fde4e383af2de124549c2782bf91a9681f8afb0f678ba484a32de1c2a8e41",
+      "bytes": 215,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-npx-safe-call.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b6a56dbd73680c8876433bdd00b9aac7d8c1c90da2de47fffcee2288965c20a9",
+      "bytes": 131,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-npx-short.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "9cb9e7a12fbf2d3b1d0fab62e6292dc7e45e4fcc701cdb21f3f097bd0ed802f7",
+      "bytes": 165,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-argv-system.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "372518bf163042be1ef8652ee5c5a225b03a7a769168b373ffe33fe8edc90be1",
+      "bytes": 184,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-attached.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "74afec4092343d59b2fa13bac8e5eb4ac031402c10d2fc50380ce86cd4349108",
+      "bytes": 162,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3f4d2789ba30677a314ea987a5470abe428a1fbe286cead6ce8b609eb1654bdd",
+      "bytes": 190,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c670246ea728593e371e3b93431d917944a84b039c7e636ae9d7caa1bb4c16ab",
+      "bytes": 190,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-module.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "4f476741b602952c2c52ca8a39b80100e0e84d7f05f3bf8ac7ed604aefa14ed0",
+      "bytes": 209,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-multiple-eval-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "08b8d00edf212dc241b08444549e36881a2a0b4eda0b9279bca5ccff2cdb20b9",
+      "bytes": 223,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-multiple-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e27c81250becbb2dccdeb6a985731016f609026dca902b7ff69fd7aa3298169e",
+      "bytes": 213,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-print.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "889e338a2a903a3b20b4bd1a0a3bd858167cb982118317f344f67cf75d0b663e",
+      "bytes": 174,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "4d67641d8bb21b9627309a0eed3b948f672e20bb9c5ea377715eb718769bd1f0",
+      "bytes": 208,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-system-bare.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "0c52c0045d195b3857cee6e50b020da01c63cefca60d9ebce065752a0ca38de5",
+      "bytes": 175,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-perl-system.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "0de3126d73b6d8cf66e62bc332b9476f6ac531edc05c9c68f07c63a68c3f6c87",
+      "bytes": 176,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-call-syntax.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "22d91cad5b288a81942daaa2a621991b780ff8b9f15a2147aaa030d34108f21a",
+      "bytes": 219,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "943007dae6081553bb42654148448abc1eafe97d47413544add3976dcdf2f2eb",
+      "bytes": 233,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-download-only.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "392e14e69958c2169272e43eb84e5ee5179a5ca4c549fd88af739c52c39259d8",
+      "bytes": 208,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "64a1fb2a513be4210b2525b3e07c4754c636c4e36072aacb8932f785ccb2c60e",
+      "bytes": 170,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "bc462a56bd399d9103b60de4d8b76d4d50af8db5ef041776b4c40a444a41f39c",
+      "bytes": 251,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-sink-parameter.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "240481e6077d1c1e041fa2bf6289854b30354509fed69b517af1ca1233b39d84",
+      "bytes": 243,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-string.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e796d7c9326c1c702e266184733c442ff841d1370c4fd6fed28a1f9fe4dbfe57",
+      "bytes": 229,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-webclient-case.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "59cf27c24c3ab0add22c436874c8ba390b21fffabda2057d2e2e4653c3410713",
+      "bytes": 239,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-webclient.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "1cea2c12ae1836d68ff6d667db97643125c6b519242c93a74cc2084412d1277d",
+      "bytes": 218,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-powershell-wrapped.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "aad0249089f3c400efa7d61872061191bc6b2497404b944157ef3d25fa4afb8f",
+      "bytes": 251,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-quoted-redirection.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5e68020fdb8434e6a49e7f47b8414259fe8b78e46fc696b36f69621f1abf014e",
+      "bytes": 93,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-argv-system.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f97a7af367d2acac3d9e83f73e482bfc1a4e32481d12b29540b4c53f352ac16d",
+      "bytes": 184,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-attached.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ed77fb9547462e5f699c65804e447cd8d4617ee04380647da03f88bb7b521797",
+      "bytes": 162,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "97e8a4d5ad266b87dafd49e430438ad10e95db6629cafa3dd1f0a4927cf1ba68",
+      "bytes": 189,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-encoding-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a894a169a903b058f4fc217b39d2d5b0c51f728ad4041b1946c1d60e2a183616",
+      "bytes": 229,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-encoding.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "cc090d164c2a54b3ed8f5543fd93bcf0da3d979759aa2828cde7848de4a1f54d",
+      "bytes": 207,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3e16349356826d6aba6e54269fbde60e5a42b93ab35873d0ce0f9aa63b8f8623",
+      "bytes": 190,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-multiple-eval-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3c5972dbbecb428a1459f1a73b1032d2df9a37d4ad809e0c640817295a2275c3",
+      "bytes": 221,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-multiple-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f0e26425f13e00e687032d5987a8541be44b1c9224ccae18901553cd6b1d468c",
+      "bytes": 212,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-print.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "72e944f1883b4d0d5486d92ba59487c4e5044cdd69f7937320015fa265edbd63",
+      "bytes": 173,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5180b4b741ac0d0debebb314e8e6e4227df3d155997129aafd5b7a1c9268369c",
+      "bytes": 208,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-system-bare.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "41a155838a16c66968bfa883a67f4259b7ba9c0a3d5ca44158544abda409d8b4",
+      "bytes": 175,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-ruby-system.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e2ec79f8eac4f799cdd0f6a082d28fa7c53b04c79542305eb3a93095d223f2f5",
+      "bytes": 176,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapped-npx-call.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "19be57b3a36ec94625de3520645f4c11cb709f327f89b9789cf1babcf25cf2c4",
+      "bytes": 204,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-applet-boundary.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "db37730dadc75429b6b838c6d7f1095e22adda8bd35f9286ba8973ab98bf7e08",
+      "bytes": 199,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-assignment-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "50b80342cd6c1c63f026c15b4329ae8c6f887ea7a0ce53e11acf8bf4f53cbd24",
+      "bytes": 306,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-busybox-install.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "51c5da156b5a22e9bd68e020adf50465e709de8301132841a7a7beab66e6936a",
+      "bytes": 204,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-busybox.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "769c1fce8f6eaa66fcd3de0e2e3a0da6f18cf1da948f78780e1887ba626f5e50",
+      "bytes": 183,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-chrt.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "445471a32590711fbae661543e04170427484b798b00fa4fba9d9832a7005250",
+      "bytes": 208,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-env-absolute.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "78a48278eba769b365a9d85a86c6c4d7aa4e37bade9655c0878b450fae2ac726",
+      "bytes": 287,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-env-boundary.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "87a9c84d6f5de0a82e261316991e0d8ebcfcbe1567f66a8c9673545f35549c83",
+      "bytes": 214,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-env-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "9c903032ce7029df16f09b19db9dfbc9e6a4b8b7bcb5a2535bd69862cc055d19",
+      "bytes": 193,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-env-operand.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "dcb02a2a21ce6c215bd7ac930e71e31efe286c3ee9a359ca3f6f60fd3d718638",
+      "bytes": 221,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-env.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a2f9df43834bf918fc99ce88e9b9bb6331ab154d7f5c0980b6e34a9aefc06005",
+      "bytes": 203,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c3fc40b34f8fa80763c9c8076b1b6dce30d3aab0e929957ffbb74275be5dd5e2",
+      "bytes": 179,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-ionice.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b19200ae9a49bfff03abfeb4631d38f37a2a98a9b6173ad53bbe89758222d20b",
+      "bytes": 236,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ca31aac56a4d4d7dd509e2815bb8370dd0fcd6fc0992b7f726e7be143f0dacd7",
+      "bytes": 218,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-nice-attached.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "0cb9d4f851b9942f19ecc5d690914ffecb466ea918b2da9748317eea0f011abf",
+      "bytes": 215,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-nice.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f561c9d8b5719bca5c58b991e751941d3e57894fc04bf6736a01b019e0d57748",
+      "bytes": 207,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-nohup.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5cc30ac8c6eb7db16034bf6b22b7b006cf23db8e6600f7af1a278f32cd3bc0ca",
+      "bytes": 181,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-recursive.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5f922ca15b196540b2fa9272cd6833c75e221e61e6c1d8c9036d8a40e6910115",
+      "bytes": 418,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-script-boundary.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e76bc0e55f9cfb1f988d0cd4f01485d9bb9f36e09cd2130daf76b3c398b319f6",
+      "bytes": 204,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-setsid.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a267c65766fc57cbd345913388a46c06caca05f63e980433a872f870fa5712a1",
+      "bytes": 200,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-split-attached.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e27d7039411c48330bfbb3e19002a758db8b1c60a8e5419eeeaa15018183440a",
+      "bytes": 184,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-split-string.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a7c76f2296f30aac93b21c22392316778f892da0e064aefbe8eb898de85f1cd3",
+      "bytes": 179,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-stdbuf.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "58d19ef6de0e6462e3cc88ce9970b92223c37a4e0e4074ea4a3491fc0feab2ed",
+      "bytes": 224,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-sudo-assignment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d17044fbe4eafd6a12deefa59f78bb5da4806ce4ab780c8cbf194400ffaf035f",
+      "bytes": 204,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-sudo-background.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5108e9416c245b23138209ae17664c85c84f35b93d99d43449411b23241564c5",
+      "bytes": 194,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-sudo-list.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d95167a4169d4cb47118b599fe44b0858fe8b9bba92e9ab9971922cfcb7aadbd",
+      "bytes": 198,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-sudo-reset-timestamp.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "67c73c3f65d608a1cc16aa41ede3acd8ddb816c95784e895b3dc9c4a00499351",
+      "bytes": 209,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-sudo.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ebfffdd2b956fd4facf4b30ef573ca7553c703e4298c9c493fc786adbcf346f7",
+      "bytes": 259,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-taskset-cpus.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c1ca4eb4d9f74fd45dd1e4f2b24e73f153e9052cb89bbdcd8080c31803e6a2c2",
+      "bytes": 210,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-taskset-mask.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "bebdb45a82a0c954f6052b885cdb7c2ed46ca00494d2bd94a89abcc4ebd1197e",
+      "bytes": 198,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-timeout-attached.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d5daf714570d5049d9e9bb718f0ed8af38ac7c3d6e743583fa8d63d500871cf7",
+      "bytes": 230,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round3-wrapper-timeout.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c47b88c5f3f2621a8492c3645066250448c601635ff68bf862874edde6fa00f8",
+      "bytes": 271,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-node-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b3063f75f80e44cc759797f8a2b23a6eecd656e34f8d9665f5c570f0c7c4dc4c",
+      "bytes": 243,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-node-safe.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ec9e17033712c0e7c9fd19d67bd7a1b804ba9b8eaec890b6119f0b4c663d6a88",
+      "bytes": 237,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-node-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "382406e0951008590393c0d8d93737142a0e1cc5245fae6149dedc007f525b92",
+      "bytes": 251,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-node.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "34bae948223d8ae5a972ae11685448559c7d48ecb797d394dca14489db36a1d8",
+      "bytes": 264,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-perl-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "951763d3706a52e1bcc8f9586d3f07c92d3ea10cd64b04ef1dc83263bbb68742",
+      "bytes": 211,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-perl-safe.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "6147a0ea2d0015d16b1468c58187b5819e78a752c07a99a53df4b77948d9a305",
+      "bytes": 230,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-perl-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "79b561ce3fcf6cb57c8ba0390615ad661c2dd3b784c533d5665adbb778072f77",
+      "bytes": 218,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-perl.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b692da409e7b81db3cd243ace35a11d8aab193f8bf48734b0cef80180a1ab37f",
+      "bytes": 232,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-python-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "67b64a7c87401caa012606248fecd120c7f0c2b4f599258ac5a32178c2bbfc54",
+      "bytes": 228,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-python-safe.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "84489ace4d325a5fe78944c11676eadbbabb02c2245b4d24c20d67f2bb5f4aa0",
+      "bytes": 234,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-python-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "848c786a7a6cb6ba3e3ae9c5df94463bf3438a7f92c96cd4c443b8ce3bf8571e",
+      "bytes": 235,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-python.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "992f112b5d415f63fb532d03c7466f594c4d4c98f5861ebddab17dd3011dd886",
+      "bytes": 249,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-ruby-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "7ba7ca7fcb6ece4c5455a47ccaac1c1840bbab870c6cde2a25344b9e1159c7e8",
+      "bytes": 211,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-ruby-safe.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f695ad642b6481962b39b5e3eee58d0382365ed5f6d0f0bf9ec892e404856627",
+      "bytes": 229,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-ruby-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "524cc4b945e2816a6f4021ad055835661010a3f52253959b249a79f72b150f50",
+      "bytes": 218,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-anywhere-ruby.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b084b54f5f35991acf6281f0b19a63196f7addd17c04eddc634850c0c0793066",
+      "bytes": 232,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-literal-powershell-code.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "fd06449857b317065fbd223364d9e7dcad86b1794e9c5ae3b7f2974ad5aa7e57",
+      "bytes": 147,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-csh-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "79064c8b037023e839c09fa828ad7948e8ffc14be08f04fa35513e913436b3dd",
+      "bytes": 167
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-csh.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "af81f4bb869e9dc002f64fa4446acfa06626405835902464ef2d2e362f7b1e34",
+      "bytes": 160
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-env-s-joined-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "794ca6f1cd04f7c46210e678796159433f95ae01cf459607c9b03ba45f0cbf77",
+      "bytes": 131
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-env-s-joined.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "a9df78f7634d55275e2ed122ff5ad4e7d001185fcb17e288721b8b00bbd09a32",
+      "bytes": 158
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-mksh-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "ffdbe7c3c3bfa2425e157beb4a9c10ddf04fa1cb354548f10598430771f3ed67",
+      "bytes": 168
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-mksh.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "9e2fa339a31d197e14bafc1c3cb704b686d8c97f5ee7ef10bdb4224c58150d12",
+      "bytes": 161
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-npx-terminator-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "b0471df79b5b309e4f90071d65b556a88ac7ea473483c1848672f0ae528d9e86",
+      "bytes": 246
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-npx-terminator.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "cfc58ea2bcccf10154526b097c384fde5bd4b68dd7e161eb5bb60f3042769ffe",
+      "bytes": 227
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-powershell-enc-file.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "cd477b6ee2ee372cabc2f65e31b07ffc5d48c69c0968321e46895d851082b39d",
+      "bytes": 194
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-powershell-enc.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "bbbfe836690c0ed444c091466a5aae47e31b5c4a0a6607cabb5d53e55800b19a",
+      "bytes": 157
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-powershell-ep-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "a92c197a72e4c970b3f5d5e79641ddcceb2b4fba39c929c17345dcf536f8c46d",
+      "bytes": 210
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-powershell-ep.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "693980cda1fd35d93d6ba9203ca740f7fbb34f0e6a812d17bc78b579d70b2a93",
+      "bytes": 195
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-powershell-window-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "1fcac6d1256b8708ff54bc553e932a15a09e470d614df432f2c7b873b31e4f4e",
+      "bytes": 203
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-powershell-window.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "90d0cd8863abfcf57c9fea7ed381d6fffd5def5b1e80496e01c7884b542a24c9",
+      "bytes": 188
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-script-combined-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "f4402aefdf2947370741d03e7f327ccabc4b532457f64ec5c9c814bdadf7fba8",
+      "bytes": 171
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-script-combined.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "037937bb146f7e0e1292cc850ac473f0323783e33fb1414c291e6cf70c310233",
+      "bytes": 164
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-su-combined-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "4499ac86f5ebed96920f5ac85b4f711d80526278b896639f73af8cc52736fc14",
+      "bytes": 167
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-su-combined.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "d94dc39e2f4ad54e3d6931b5d7c389987fd544dacf8c631771d4c9b06d2c29e7",
+      "bytes": 160
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-tcsh-quoted.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "df25fa9bae857eea8efc99ae726a30f1296d4ef92e86d16c960852a50fbed976",
+      "bytes": 168
+    },
+    {
+      "caminho": "fixtures/corpus/round4-p24-tcsh.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "gerador": "scripts/generate-fixtures.mjs",
+      "sha256": "1256fa7ad51a3fb408e7b0686bfd800b7682e52d3a0bccc4ace4e41fd5c7f5aa",
+      "bytes": 161
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-content-no-sink.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3d6742aee291717a3d4de296d4d110ea4f72fb4029b35181324c391f61468eb0",
+      "bytes": 180,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-download-only.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a9bc325bdb9ed5afb9186d584ae9a2b88611d05ae7cf190367ee1971f1a6d203",
+      "bytes": 156,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-irm-pipeline-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "891a7e99252a81f90b0a7c1cc6bbe27043caec2468c7b9eeeeb9247e3dbcd222",
+      "bytes": 185,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-irm-pipeline-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "712e053ec73d42bbb3546ea99d9d59788a3b39ca9ec960cf55299a85a499f1cf",
+      "bytes": 120,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-irm-pipeline-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f2f927707c2e37e7fc91406a97cd18cad550485e21c8c3ebfb38ac13ac47e17e",
+      "bytes": 151,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-irm-pipeline-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "6c611499fdb4b4f738ae027a0c88ccac3ba46584243cc27e32cce12309bf7a48",
+      "bytes": 179,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-irm-pipeline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "525f84f4605d2483b0102aaaccbadd8c4db9d153708dacc3178328ad22246f9e",
+      "bytes": 168,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-iwr-content-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b87c2705050e0507a7097936f4089bfd210fb4105cf2fe923a8626dea1707de4",
+      "bytes": 193,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-iwr-content-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "978531b806bac61a5647fed2531a5190735d416768f63827af09707c35217f79",
+      "bytes": 128,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-iwr-content-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a8d79e8f39b8e6d52ff1c04894deb2c2629fc87eb5ca07e3b95ffe7fe48a179f",
+      "bytes": 159,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-iwr-content-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ce667b67585eeb1dd7f74a2b7ab8101bd0f143c7dc8f68347428e0751e919ce8",
+      "bytes": 187,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-iwr-content.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "556289afd3a5aefd18ba8a0a4fe1c2cb71f989056f9768010941b96cbc065a2b",
+      "bytes": 176,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-local-expression.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d3abc028612ad0d26d19af2c27a753836658bb78e7c57711929680df22072de2",
+      "bytes": 166,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-script-boundary.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3a64704c2d5c8061f8a33e4d96d5a77c6b33a6ff170b8e4b3ba5b2f51d26c899",
+      "bytes": 201,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-unknown-wrapper.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b15be282ee2e640a77ccdf1b0d24d7b506391989a4a42834778226d51f79fb58",
+      "bytes": 231,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webclient-no-sink.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f47117af28a2b2be9f38b75404f7fc203d6a094c7870132811b87555a917204b",
+      "bytes": 197,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webclient-pipeline-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "0ee01e519d5eca8f903503fad051997dc53c739ad87942840b6349d9e7c94793",
+      "bytes": 226,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webclient-pipeline-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "4ccd95dc66c64348aea7564efa5ee02b3d2f4064f1e14526e5b34cf7732373b3",
+      "bytes": 161,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webclient-pipeline-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "488ecf351977122fe2540a83b7a1b8ac56d959a2847b5c086d47fd46c908ade5",
+      "bytes": 192,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webclient-pipeline-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "844bc494c3cd83b5e0fedbbd65e8fb54665f8e18899e0eb3065e880c39e5d6f1",
+      "bytes": 220,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webclient-pipeline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ad4781f89d333f47db809cf479eb90e637eb3b289f6d4ce65bd412c272752f36",
+      "bytes": 209,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webrequest-content-comment.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "75749f154455a814e3d0be50617f4a0e04e1076cfcecadb56fc9ba299641156c",
+      "bytes": 221,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webrequest-content-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "4ac1f60d602121ce40441f1beed3ddf55b13cc417b8dcb958e71cabca6941dc9",
+      "bytes": 156,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webrequest-content-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "9655244d31d33c34a8e06c0ed2331e1f5e1252a6c5e918246aa5e4ee4c234ddd",
+      "bytes": 187,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webrequest-content-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c0b56398b857364e570f76a4efc04d435172e3b9502453cb5f5f04b2663376ba",
+      "bytes": 215,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-powershell-webrequest-content.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "132b86725eea0f3627e4016e156d3d5956e2b8c33b621ddee338ca0b8e63720a",
+      "bytes": 204,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-absolute-shell.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e206666d272c7a11b5dd82c51b69b622818057d734a52585c50763f2382855b7",
+      "bytes": 233,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-end-options.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a582a37bf3cd8c1f42f205c760ba4e907cf8a0deb2a43e22d10647e9998009d3",
+      "bytes": 199,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-flag-only.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3bcdcb05d15e928a70cbfe1be11fdf43e693077b1a06287d7dc9f6ce9f1c7d6a",
+      "bytes": 171,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-literal-argument.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "53d1920ff34ab9601532f4374b8ecf52c6d5a974981bb7380bbd48f96a2d311f",
+      "bytes": 165,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-nested.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e79c883e6dddcf256645738b6e4079eeba4e5ae1a8c3a9d42ec7f8a7df8ced16",
+      "bytes": 244,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-safe-shell.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "41c6ce6828598882bf6cc8507c663a88a3d2c562aa7505904c77220571d40227",
+      "bytes": 192,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-script-argument.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "61c64565cb03d203bce7add2436fa2135f9fcd861427794d5331e5452d602b1d",
+      "bytes": 206,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-shell-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f715ab837a84c819a71d3099fa3b7a089121aab42e0107c66392be5c50f2dd24",
+      "bytes": 143,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-shell-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c209751053fe16ca695df77620b144de2e139a3102cd2f5a8fc30bfa1c4daa5b",
+      "bytes": 176,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-unknown-wrapper-shell.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c7a684ef58c70cecf8c13aba240e4e33938234487b5b9a930c229d5a53e0b379",
+      "bytes": 220,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-command-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "25e6f3355d3c56a37ce889af43aa4c024b1478c627389e55b4719ed7954d5025",
+      "bytes": 123,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-command-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "54f4253aa6a532403c68dc2faf447c76fb50d92744a6affcbd795c3231ac6a20",
+      "bytes": 156,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-command-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "64a8ae1ad6e8a829b13c2ead9f86113e568d26359f8d5fc4104a08eda449fa54",
+      "bytes": 171,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-command-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5531e3df839065f40d0429aa9e69379167d872674e3db5e170de9956a55ef749",
+      "bytes": 185,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-command.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d1f78985ccfbb339a6c8a1b9b0db8c302f33204b060ed2cee68a0f4f9e31a9ab",
+      "bytes": 178,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-doas-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "2af672842e8fdb05fe51beb8cf6033e73ac2865324bf10ffa56d325dbf71b49b",
+      "bytes": 120,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-doas-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "284e51497da3454fdb4d1a7db1fd703e6ff1e264c63b750758841b0e70dc7600",
+      "bytes": 153,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-doas-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "793473821ab6379fdde9f16edfa651df63c3288d4f9688b4aeaef7af0ce8c6bc",
+      "bytes": 168,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-doas-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "67be77980e4f68ef7269f8f4ccc3507a7590344d97d729b139bf1618ad6cdc96",
+      "bytes": 182,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-doas.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "dfc2eba753e5d12aabe3e1352dfb6b01a8c1d57da74b172d7c4120ad9b7c60cd",
+      "bytes": 175,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-exec-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "bcf0fc86dbbe78ba6d8358c78210a82548f4fe8dc7bcb34c0db070369d4f88b7",
+      "bytes": 120,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-exec-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "32913cfa9991b3e6617d6f286c65d7526199ab4b6ca25ea83a61c2c2a455429e",
+      "bytes": 153,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-exec-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f238d961728625e43d405d5c3b6d0c84adc9e345db882296ea776c45f097f27d",
+      "bytes": 168,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-exec-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a29e666c3d68696edc2d12e2b948b30b29e8806e162bb022d339a59eb8dab36a",
+      "bytes": 182,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-exec.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5d21e16ec2fea739e1fb7287a9b33aa2c5cb9bc962f6ea7c5625ee166b5ea322",
+      "bytes": 175,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-flock-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "98e58033db77b8761b6bef90b74d3ccd58b186ae9a5a4d8aec843491a76ef867",
+      "bytes": 128,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-flock-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "35ca05b3002b5426b71250e7fea0f8026bf774f53dff6981234f81cfdf8a030c",
+      "bytes": 161,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-flock-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "cf251b56906cae5f150b6e58e33ad3a4cffc8784fb2376c759437010259edeb0",
+      "bytes": 187,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-flock-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c5ff80e12f1e6d23cbf82fd433775c00a2e10c15c4dd50527ebdb3c8721c7d90",
+      "bytes": 201,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-flock.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "2a198c28e0d50ed14d4fbfe77867b3d98d25642824e8f536a56b0fd34d7bb6a9",
+      "bytes": 194,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-script-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "984a9ffcf6cbe79c543c48f0373ea0be78a46ff12d10371185c2ae9b5617d0eb",
+      "bytes": 119,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-script-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "842a2375b55af81fc9c8afe5f246b71a12a13ba1222af69e25cb39d0f7963566",
+      "bytes": 152,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-script-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e0837f360bc05875aed9e77c3782f21b23f2ecf7e4384a8d9917aaf2629afb0b",
+      "bytes": 170,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-script-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f1e33a770e5a0c6735b2f3400c0f2137b3cf3ec9935b0134b83799ae583cd117",
+      "bytes": 170,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-script.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "d7f304ca4c0a3f948ebec91623d89cf6d034baf4e8da22ed0a3834e8fe590a17",
+      "bytes": 163,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-su-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a42b84f14513ae715785615f96b9b6e295d64273e47a73e469d6519689d38ff4",
+      "bytes": 115,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-su-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "41af2117a9fb3c3556779e64b4b6475434de130e05007f47e08862eded37c7ae",
+      "bytes": 148,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-su-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "04b2e734a3d1c0d6d71bdf51a0d152b5fe558d3868fc44b6d3c2b1c37ab750bd",
+      "bytes": 166,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-su-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "1aa374e1e3f703cfeaf68393850b9adef2998414cb425954b71386ae70d857a8",
+      "bytes": 166,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-su.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e1564da80c8df38316efa75157686196ddcfd8294a15c47d72f15665a5d3a8ee",
+      "bytes": 159,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-time-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "907677bbad6c94345fb538314772c6851dd379acadc18d48a05d660188eb59a0",
+      "bytes": 120,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-time-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "bf646f18204e309b59ab0686c61767e86ae9ac50ce51cf8da0b7354acd56b22c",
+      "bytes": 153,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-time-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "4487dbe6e9219093975e47ce6ef200b8d6ace49dad26afd21c834befce33be96",
+      "bytes": 168,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-time-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "b2ce354c5784233f2530713ed1ea203239da8541a30ebf59777bc85adcb7f366",
+      "bytes": 182,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-time.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a6a629a1f24c2329d65f224e57d76a393adff1af8b7859ed27f6474d97221c04",
+      "bytes": 175,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-unshare-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "21f7d726ae303c07edf90b3f1217e931beeb3b9766247f3c71f60d0942e56499",
+      "bytes": 123,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-unshare-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "66397e3c081a9fe7e87d5a66b6bb4250b66320ff80fcec6eabde419cecec0bd0",
+      "bytes": 156,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-unshare-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a4f24bcc9261876b3cba795f1a488d99d0613c9cbe9ba372e5ef799ecc8d4695",
+      "bytes": 171,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-unshare-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "8a15cddeeefae6ac2c8a421596750ee25545c112ffdfd2c8097455763491b75b",
+      "bytes": 185,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-unshare.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3df12881c076201ccfb39528e3ead19d4f3055afd35c22d6a041d003a7094845",
+      "bytes": 178,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-xargs-inline.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "bf7c2b289b638700a08518083c19fb8491b6fd1408b401d3acb2ed0af47e5567",
+      "bytes": 121,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-xargs-mixed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a24645c3b6983ad39decc8a35a44a2f896187f514f569687a9a5939cf7dc96dc",
+      "bytes": 154,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-xargs-no-eval.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "76646c879e9e05651cadac6d094822eddae0fea585493e9871005716b3c49047",
+      "bytes": 169,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-xargs-quoted-data.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "fb374ceef875d421c36ad0bafa86232a25fcba3f9d191a6e0ad6266ee90911d0",
+      "bytes": 183,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/corpus/round4-wrapper-xargs.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "3595a3f3cb15aa19e6079579961a23431b04f5092598d6632ac3c1ad3169103b",
+      "bytes": 176,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-01-plaintext.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "8fa3d4100b9e7feda20c96003124e3604a1cc16cc64eb2e529d45477711e3673",
+      "bytes": 527,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-02-shell.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "a0ae69b4d0bdcf85b548c19bc2a2bd55f4e93adc9f63e89e1234b9eecc2c725f",
+      "bytes": 1691,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-03-version-launchers.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "de91fd8a3d5bc58cf247f538e2c0adb7cfc670e0456cf01bc9259f0f8e79d4de",
+      "bytes": 355,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-04-network.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "df22105e1b544bc55e75c512a9d9b671eb815fb8ed34a4d86351f88e37576cf5",
+      "bytes": 114,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-05-filesystem.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "17c503be6757c45d886ae9e020450fafcb79c06ac796966ddecd3a3e29180cb7",
+      "bytes": 151,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-06-container.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "7f6d6ee0a593b076ca8d73eafe5c594b94ac4550840bd817c141f0dace74e052",
+      "bytes": 307,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-07-policy.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "ff513935c3fab20b50e71c2cb1692832a9bf655840a6fc3698841146fe4689d6",
+      "bytes": 264,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-08-duplicate-jsonc.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "4492458dc79a8699041b9d03451cb90be619c8df1b7947c72ecb622c6ee664dd",
+      "bytes": 136,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-09-malformed.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e912da59ed6078d007e74c0a1fa133bafa31fc1a913a63257b9976836271d4eb",
+      "bytes": 186,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/danger-10-structured-settings.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "914fb3aeb3cf3b86bf4b612f469d84c73110632f36809721a4681503554f2d47",
+      "bytes": 646,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/manifest.json",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "89b0a4d62afc1dfa58af25f048eb9da79681edf37d0f12fbc1280d3431806fd8",
+      "bytes": 5347,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-01-local.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "0f3c9aff8b3f3af91f69e7c8d789f10b93de7e12baeb5f2cca9882e8c7e8f443",
+      "bytes": 1006,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-02-jsonc-string-traps.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "27535e121b8bad6cdea7fcfd06ad9f3ae554b62e1c5e5bc35ac035780417163d",
+      "bytes": 175,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-03-runtime-auth-reference.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "f3845a8c27a2beea5e384913fa11b5c65e33de05f90a5fa23106f33856f953f5",
+      "bytes": 171,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-04-loopback.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "e5887c749b52badf73ca11cdeadfc78ca75e03a449b3874ead04f47ce0e200b4",
+      "bytes": 211,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-05-container-digest.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "10f05041f36d7f1e6aff55b47016226a1a09cf4b0835597292903c2b6085ada6",
+      "bytes": 285,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-06-scoped-filesystem.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5c5b44907b64e11e6107cf0dcbf99dea0e345fdb0f81bc5d94a0e8dea835901a",
+      "bytes": 216,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-07-environment-references.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "c23a0d88a285534b07fd698d82d3e81b3c00002e5a3374fa9f1a4ee07d787c73",
+      "bytes": 291,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-08-explicit-permissions.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "eba8068d43980081237e1accdf39820dcbc300799cc5a602767553b7e48a736f",
+      "bytes": 276,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-09-public-digests.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "5ae6559dd818dc2ed2d6bf9dd60e8aead8e6c7250e6608ac548ebe72231e41b7",
+      "bytes": 366,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "fixtures/valid-10-server-array.jsonc",
+      "origem": "sintetico",
+      "url": null,
+      "licenca_spdx": "CC0-1.0",
+      "atribuicao": "Fixtures sintéticas MIB, sem dados pessoais.",
+      "sha256": "eb6dbeeb2ebeff98aa0e263b6585debcc5242b639bd7fbe82b9f28b414a029da",
+      "bytes": 361,
+      "gerador": "scripts/generate-fixtures.mjs"
+    },
+    {
+      "caminho": "schemas/mcp-2025-11-25.schema.json",
+      "origem": "publico",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schema/2025-11-25/schema.json",
+      "licenca_spdx": "LicenseRef-Upstream-MCP-Transition",
+      "atribuicao": "Aviso original preservado em schemas/licenses/mcp-LICENSE.txt",
+      "sha256": "268a5f82ba70fd7e4b6dc4aa1e64f116f74b4d0edcb69dc046829c79dd4e97e7",
+      "bytes": 174323,
+      "gerador": "Recolha pública em build-time; bytes sem alterações"
+    },
+    {
+      "caminho": "schemas/mcp-2026-07-28.schema.json",
+      "origem": "publico",
+      "url": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schema/2026-07-28/schema.json",
+      "licenca_spdx": "LicenseRef-Upstream-MCP-Transition",
+      "atribuicao": "Aviso original preservado em schemas/licenses/mcp-LICENSE.txt",
+      "sha256": "edbb197ed0f92e90d658866e23cf76f107df0caac5ce25c2b9e64e1ca9a6314a",
+      "bytes": 181813,
+      "gerador": "Recolha pública em build-time; bytes sem alterações"
+    },
+    {
+      "caminho": "schemas/sarif-2.1.0.schema.json",
+      "origem": "publico",
+      "url": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/sarif-2.1/schema/sarif-schema-2.1.0.json",
+      "licenca_spdx": "LicenseRef-OASIS-SARIF-Terms",
+      "atribuicao": "Aviso original preservado em schemas/licenses/sarif-LICENSE.md",
+      "sha256": "c3b4bb2d6093897483348925aaa73af03b3e3f4bd4ca38cef26dcb4212a2682e",
+      "bytes": 112768,
+      "gerador": "Recolha pública em build-time; bytes sem alterações"
+    },
+    {
+      "caminho": "schemas/server-2025-12-11.schema.json",
+      "origem": "publico",
+      "url": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "licenca_spdx": "LicenseRef-Upstream-MCP-Transition",
+      "atribuicao": "Aviso original preservado em schemas/licenses/registry-LICENSE.txt",
+      "sha256": "3fba09590c99f61735d234822279f4223fab9e300c0a81e81c91ab62a4114de0",
+      "bytes": 22090,
+      "gerador": "Recolha pública em build-time; bytes sem alterações"
+    }
+  ]
+}

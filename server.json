@@ -1,0 +1,39 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.strictstack/mcp-configlint",
+  "title": "MCP ConfigLint",
+  "description": "Offline static checks for MCP client configuration files, with JSON and SARIF output.",
+  "repository": {
+    "url": "https://github.com/strictstack/mcp-configlint",
+    "source": "github"
+  },
+  "websiteUrl": "https://strictstackdocs.tech/mcp-configlint/",
+  "version": "0.1.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "mcp-configlint",
+      "version": "0.1.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "--mcp"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "protocolVersions": [
+        "2026-07-28",
+        "2025-11-25"
+      ],
+      "runtimeDependencies": 0
+    }
+  }
+}

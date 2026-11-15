@@ -1,0 +1,1661 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "fixtureCount": 118,
+  "cases": [
+    {
+      "id": "round4-wrapper-doas",
+      "filename": "round4-wrapper-doas.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-doas-inline",
+      "filename": "round4-wrapper-doas-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-doas-mixed",
+      "filename": "round4-wrapper-doas-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-doas-quoted-data",
+      "filename": "round4-wrapper-doas-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-doas-no-eval",
+      "filename": "round4-wrapper-doas-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-xargs",
+      "filename": "round4-wrapper-xargs.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-xargs-inline",
+      "filename": "round4-wrapper-xargs-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-xargs-mixed",
+      "filename": "round4-wrapper-xargs-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-xargs-quoted-data",
+      "filename": "round4-wrapper-xargs-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-xargs-no-eval",
+      "filename": "round4-wrapper-xargs-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-flock",
+      "filename": "round4-wrapper-flock.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-flock-inline",
+      "filename": "round4-wrapper-flock-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-flock-mixed",
+      "filename": "round4-wrapper-flock-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-flock-quoted-data",
+      "filename": "round4-wrapper-flock-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-flock-no-eval",
+      "filename": "round4-wrapper-flock-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-time",
+      "filename": "round4-wrapper-time.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-time-inline",
+      "filename": "round4-wrapper-time-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-time-mixed",
+      "filename": "round4-wrapper-time-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-time-quoted-data",
+      "filename": "round4-wrapper-time-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-time-no-eval",
+      "filename": "round4-wrapper-time-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-unshare",
+      "filename": "round4-wrapper-unshare.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-unshare-inline",
+      "filename": "round4-wrapper-unshare-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-unshare-mixed",
+      "filename": "round4-wrapper-unshare-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-unshare-quoted-data",
+      "filename": "round4-wrapper-unshare-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-unshare-no-eval",
+      "filename": "round4-wrapper-unshare-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-command",
+      "filename": "round4-wrapper-command.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-command-inline",
+      "filename": "round4-wrapper-command-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-command-mixed",
+      "filename": "round4-wrapper-command-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-command-quoted-data",
+      "filename": "round4-wrapper-command-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-command-no-eval",
+      "filename": "round4-wrapper-command-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-exec",
+      "filename": "round4-wrapper-exec.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-exec-inline",
+      "filename": "round4-wrapper-exec-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-exec-mixed",
+      "filename": "round4-wrapper-exec-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-exec-quoted-data",
+      "filename": "round4-wrapper-exec-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-exec-no-eval",
+      "filename": "round4-wrapper-exec-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-su",
+      "filename": "round4-wrapper-su.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-su-inline",
+      "filename": "round4-wrapper-su-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-su-mixed",
+      "filename": "round4-wrapper-su-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-su-quoted-data",
+      "filename": "round4-wrapper-su-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-su-no-eval",
+      "filename": "round4-wrapper-su-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-wrapper-script",
+      "filename": "round4-wrapper-script.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-script-inline",
+      "filename": "round4-wrapper-script-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-script-mixed",
+      "filename": "round4-wrapper-script-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-script-quoted-data",
+      "filename": "round4-wrapper-script-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-wrapper-script-no-eval",
+      "filename": "round4-wrapper-script-no-eval.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-shell",
+      "filename": "round4-unknown-wrapper-shell.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-shell-inline",
+      "filename": "round4-unknown-wrapper-shell-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-shell-mixed",
+      "filename": "round4-unknown-wrapper-shell-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-absolute-shell",
+      "filename": "round4-unknown-wrapper-absolute-shell.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-nested",
+      "filename": "round4-unknown-wrapper-nested.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-safe-shell",
+      "filename": "round4-unknown-wrapper-safe-shell.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-flag-only",
+      "filename": "round4-unknown-wrapper-flag-only.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-literal-argument",
+      "filename": "round4-unknown-wrapper-literal-argument.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-script-argument",
+      "filename": "round4-unknown-wrapper-script-argument.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-unknown-wrapper-end-options",
+      "filename": "round4-unknown-wrapper-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-python",
+      "filename": "round4-anywhere-python.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-python-safe",
+      "filename": "round4-anywhere-python-safe.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-python-script",
+      "filename": "round4-anywhere-python-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-python-end-options",
+      "filename": "round4-anywhere-python-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-node",
+      "filename": "round4-anywhere-node.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-node-safe",
+      "filename": "round4-anywhere-node-safe.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-node-script",
+      "filename": "round4-anywhere-node-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-node-end-options",
+      "filename": "round4-anywhere-node-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-perl",
+      "filename": "round4-anywhere-perl.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-perl-safe",
+      "filename": "round4-anywhere-perl-safe.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-perl-script",
+      "filename": "round4-anywhere-perl-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-perl-end-options",
+      "filename": "round4-anywhere-perl-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-ruby",
+      "filename": "round4-anywhere-ruby.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-ruby-safe",
+      "filename": "round4-anywhere-ruby-safe.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-anywhere-ruby-script",
+      "filename": "round4-anywhere-ruby-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-anywhere-ruby-end-options",
+      "filename": "round4-anywhere-ruby-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-powershell-irm-pipeline",
+      "filename": "round4-powershell-irm-pipeline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-irm-pipeline-inline",
+      "filename": "round4-powershell-irm-pipeline-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-irm-pipeline-mixed",
+      "filename": "round4-powershell-irm-pipeline-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-irm-pipeline-quoted-data",
+      "filename": "round4-powershell-irm-pipeline-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-irm-pipeline-comment",
+      "filename": "round4-powershell-irm-pipeline-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webclient-pipeline",
+      "filename": "round4-powershell-webclient-pipeline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webclient-pipeline-inline",
+      "filename": "round4-powershell-webclient-pipeline-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webclient-pipeline-mixed",
+      "filename": "round4-powershell-webclient-pipeline-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webclient-pipeline-quoted-data",
+      "filename": "round4-powershell-webclient-pipeline-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webclient-pipeline-comment",
+      "filename": "round4-powershell-webclient-pipeline-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-iwr-content",
+      "filename": "round4-powershell-iwr-content.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-iwr-content-inline",
+      "filename": "round4-powershell-iwr-content-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-iwr-content-mixed",
+      "filename": "round4-powershell-iwr-content-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-iwr-content-quoted-data",
+      "filename": "round4-powershell-iwr-content-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-iwr-content-comment",
+      "filename": "round4-powershell-iwr-content-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webrequest-content",
+      "filename": "round4-powershell-webrequest-content.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webrequest-content-inline",
+      "filename": "round4-powershell-webrequest-content-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webrequest-content-mixed",
+      "filename": "round4-powershell-webrequest-content-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webrequest-content-quoted-data",
+      "filename": "round4-powershell-webrequest-content-quoted-data.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webrequest-content-comment",
+      "filename": "round4-powershell-webrequest-content-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-download-only",
+      "filename": "round4-powershell-download-only.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-webclient-no-sink",
+      "filename": "round4-powershell-webclient-no-sink.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-content-no-sink",
+      "filename": "round4-powershell-content-no-sink.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-local-expression",
+      "filename": "round4-powershell-local-expression.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-powershell-script-boundary",
+      "filename": "round4-powershell-script-boundary.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-powershell-unknown-wrapper",
+      "filename": "round4-powershell-unknown-wrapper.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-literal-powershell-code",
+      "filename": "round4-literal-powershell-code.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-p24-powershell-ep",
+      "filename": "round4-p24-powershell-ep.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-powershell-ep-quoted",
+      "filename": "round4-p24-powershell-ep-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-powershell-window",
+      "filename": "round4-p24-powershell-window.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-powershell-window-quoted",
+      "filename": "round4-p24-powershell-window-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-script-combined",
+      "filename": "round4-p24-script-combined.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-script-combined-quoted",
+      "filename": "round4-p24-script-combined-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-su-combined",
+      "filename": "round4-p24-su-combined.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-su-combined-quoted",
+      "filename": "round4-p24-su-combined-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-tcsh",
+      "filename": "round4-p24-tcsh.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-tcsh-quoted",
+      "filename": "round4-p24-tcsh-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-csh",
+      "filename": "round4-p24-csh.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-csh-quoted",
+      "filename": "round4-p24-csh-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-mksh",
+      "filename": "round4-p24-mksh.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-mksh-quoted",
+      "filename": "round4-p24-mksh-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-powershell-enc",
+      "filename": "round4-p24-powershell-enc.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-powershell-enc-file",
+      "filename": "round4-p24-powershell-enc-file.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-p24-env-s-joined",
+      "filename": "round4-p24-env-s-joined.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-env-s-joined-script",
+      "filename": "round4-p24-env-s-joined-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round4-p24-npx-terminator",
+      "filename": "round4-p24-npx-terminator.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round4-p24-npx-terminator-script",
+      "filename": "round4-p24-npx-terminator-script.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-013"
+        ]
+      ]
+    }
+  ]
+}

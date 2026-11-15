@@ -1,0 +1,28 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "local-mcp",
+      "args": [
+        "--api-key=teste_NAO-USAR_a7B9c2D4e6F8g0H1j3K5m7N9"
+      ],
+      "environment": {
+        "TOKEN": "sk-teste_NAO-USAR_A9b8C7d6E5f4G3h2J1k0L9m8",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
+      },
+      "headers": {
+        "X-Api-Key": "teste_NAO-USAR_a7B9c2D4e6F8g0H1j3K5m7N9"
+      },
+      "query": {
+        "access_token": "teste_NAO-USAR_a7B9c2D4e6F8g0H1j3K5m7N9"
+      },
+      "privileged": true,
+      "runAsUser": 0,
+      "volumes": [
+        "/etc:/config:ro"
+      ],
+      "forwardHeaders": [
+        "Authorization"
+      ]
+    }
+  }
+}

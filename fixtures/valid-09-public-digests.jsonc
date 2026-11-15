@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "local-mcp",
+      "env": {
+        "SHA256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "PUBLIC_KEY": "public-material-version-2026-example"
+      },
+      "headers": {
+        "X-Checksum": "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789"
+      }
+    }
+  }
+}

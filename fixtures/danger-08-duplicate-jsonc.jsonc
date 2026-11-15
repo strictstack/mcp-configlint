@@ -1,0 +1,4 @@
+{
+  // The second name shadows the first.
+  "mcpServers": { "same": {"command":"local-one"}, "sa\u006de": {"command":"local-two"}, },
+}

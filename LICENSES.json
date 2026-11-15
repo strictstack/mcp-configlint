@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "name": "mcp-configlint",
+    "license": "Apache-2.0",
+    "licenseFile": "LICENSE",
+    "releaseApproval": "not-a-publication-approval"
+  },
+  "runtimeDependencies": [],
+  "runtimeDependencyCount": 0,
+  "buildDependencies": [],
+  "developmentTools": [
+    {
+      "name": "jsonschema",
+      "version": "4.10.3",
+      "license": "MIT",
+      "scope": "existing-development-validator; not bundled"
+    },
+    {
+      "name": "attrs",
+      "version": "23.2.0",
+      "license": "MIT",
+      "scope": "existing-development-validator; not bundled"
+    },
+    {
+      "name": "pyrsistent",
+      "version": "0.20.0",
+      "license": "MIT",
+      "scope": "existing-development-validator; not bundled"
+    },
+    {
+      "name": "npm",
+      "version": "11.6.2",
+      "license": "Artistic-2.0",
+      "scope": "isolated verification tool; not bundled in either package",
+      "source": "https://registry.npmjs.org/npm/11.6.2",
+      "integrity": "sha512-7iKzNfy8lWYs3zq4oFPa8EXZz5xt9gQNKJZau3B1ErLBb6bF7sBJ00x09485DOvRT2l5Gerbl3VlZNT57MxJVA==",
+      "bundledDependencyLicenses": "Preserved in ignored npm toolchain distribution; not project dependencies",
+      "lockFile": "docs/npm-toolchain.lock.json"
+    }
+  ],
+  "vendoredValidationArtifacts": [
+    {
+      "path": "schemas/mcp-2025-11-25.schema.json",
+      "upstream": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schema/2025-11-25/schema.json",
+      "retrievedAt": "2026-11-13",
+      "httpStatus": 200,
+      "sha256": "268a5f82ba70fd7e4b6dc4aa1e64f116f74b4d0edcb69dc046829c79dd4e97e7",
+      "license": "LicenseRef-Upstream-MCP-Transition",
+      "licenseFile": "schemas/licenses/mcp-LICENSE.txt",
+      "usage": "development-validation-only; unmodified; excluded from runtime packages"
+    },
+    {
+      "path": "schemas/mcp-2026-07-28.schema.json",
+      "upstream": "https://raw.githubusercontent.com/modelcontextprotocol/modelcontextprotocol/main/schema/2026-07-28/schema.json",
+      "retrievedAt": "2026-11-13",
+      "httpStatus": 200,
+      "sha256": "edbb197ed0f92e90d658866e23cf76f107df0caac5ce25c2b9e64e1ca9a6314a",
+      "license": "LicenseRef-Upstream-MCP-Transition",
+      "licenseFile": "schemas/licenses/mcp-LICENSE.txt",
+      "usage": "development-validation-only; unmodified; excluded from runtime packages"
+    },
+    {
+      "path": "schemas/sarif-2.1.0.schema.json",
+      "upstream": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/main/sarif-2.1/schema/sarif-schema-2.1.0.json",
+      "retrievedAt": "2026-11-13",
+      "httpStatus": 200,
+      "sha256": "c3b4bb2d6093897483348925aaa73af03b3e3f4bd4ca38cef26dcb4212a2682e",
+      "license": "LicenseRef-OASIS-SARIF-Terms",
+      "licenseFile": "schemas/licenses/sarif-LICENSE.md",
+      "usage": "development-validation-only; unmodified; excluded from runtime packages"
+    },
+    {
+      "path": "schemas/server-2025-12-11.schema.json",
+      "upstream": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "retrievedAt": "2026-11-13",
+      "httpStatus": 200,
+      "sha256": "3fba09590c99f61735d234822279f4223fab9e300c0a81e81c91ab62a4114de0",
+      "license": "LicenseRef-Upstream-MCP-Transition",
+      "licenseFile": "schemas/licenses/registry-LICENSE.txt",
+      "usage": "development-validation-only; unmodified; excluded from runtime packages"
+    }
+  ],
+  "note": "Interpreter standard libraries are provided by the host. npm is an isolated developer tool; no npm code is bundled. Upstream MCP license transition and OASIS schema terms are preserved verbatim; no blanket permissive relicensing is asserted.",
+  "schema": "mib.license-inventory.v1",
+  "pacotes": [
+    {
+      "nome": "jsonschema",
+      "versao": "4.10.3",
+      "ecossistema": "pypi",
+      "licenca_spdx": "MIT",
+      "ambito": "dev"
+    },
+    {
+      "nome": "attrs",
+      "versao": "23.2.0",
+      "ecossistema": "pypi",
+      "licenca_spdx": "MIT",
+      "ambito": "dev"
+    },
+    {
+      "nome": "pyrsistent",
+      "versao": "0.20.0",
+      "ecossistema": "pypi",
+      "licenca_spdx": "MIT",
+      "ambito": "dev"
+    },
+    {
+      "nome": "npm",
+      "versao": "11.6.2",
+      "ecossistema": "npm",
+      "licenca_spdx": "Artistic-2.0",
+      "ambito": "dev"
+    }
+  ],
+  "pesos": []
+}

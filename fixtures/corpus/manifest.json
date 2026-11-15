@@ -1,0 +1,1192 @@
+{
+  "schemaVersion": "1.0.0",
+  "synthetic": true,
+  "fixtureCount": 81,
+  "cases": [
+    {
+      "id": "round3-wrapper-env",
+      "filename": "round3-wrapper-env.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-env-absolute",
+      "filename": "round3-wrapper-env-absolute.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-env-end-options",
+      "filename": "round3-wrapper-env-end-options.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-sudo",
+      "filename": "round3-wrapper-sudo.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-sudo-background",
+      "filename": "round3-wrapper-sudo-background.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-sudo-reset-timestamp",
+      "filename": "round3-wrapper-sudo-reset-timestamp.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-sudo-assignment",
+      "filename": "round3-wrapper-sudo-assignment.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-nohup",
+      "filename": "round3-wrapper-nohup.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-busybox",
+      "filename": "round3-wrapper-busybox.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-timeout",
+      "filename": "round3-wrapper-timeout.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-timeout-attached",
+      "filename": "round3-wrapper-timeout-attached.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-nice",
+      "filename": "round3-wrapper-nice.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-nice-attached",
+      "filename": "round3-wrapper-nice-attached.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-setsid",
+      "filename": "round3-wrapper-setsid.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-stdbuf",
+      "filename": "round3-wrapper-stdbuf.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-ionice",
+      "filename": "round3-wrapper-ionice.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-taskset-mask",
+      "filename": "round3-wrapper-taskset-mask.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-taskset-cpus",
+      "filename": "round3-wrapper-taskset-cpus.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-chrt",
+      "filename": "round3-wrapper-chrt.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-recursive",
+      "filename": "round3-wrapper-recursive.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-inline",
+      "filename": "round3-wrapper-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-mixed",
+      "filename": "round3-wrapper-mixed.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-split-string",
+      "filename": "round3-wrapper-split-string.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-split-attached",
+      "filename": "round3-wrapper-split-attached.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-bash-rcfile",
+      "filename": "round3-bash-rcfile.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-bash-init-file",
+      "filename": "round3-bash-init-file.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-system",
+      "filename": "round3-perl-system.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-system-bare",
+      "filename": "round3-perl-system-bare.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-attached",
+      "filename": "round3-perl-attached.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-multiple-eval",
+      "filename": "round3-perl-multiple-eval.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-multiple-eval-quoted",
+      "filename": "round3-perl-multiple-eval-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-print",
+      "filename": "round3-perl-print.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-comment",
+      "filename": "round3-perl-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-argv-system",
+      "filename": "round3-perl-argv-system.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-perl-script",
+      "filename": "round3-perl-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-perl-end-options",
+      "filename": "round3-perl-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-ruby-system",
+      "filename": "round3-ruby-system.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-system-bare",
+      "filename": "round3-ruby-system-bare.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-attached",
+      "filename": "round3-ruby-attached.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-multiple-eval",
+      "filename": "round3-ruby-multiple-eval.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-multiple-eval-quoted",
+      "filename": "round3-ruby-multiple-eval-quoted.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-print",
+      "filename": "round3-ruby-print.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-comment",
+      "filename": "round3-ruby-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-argv-system",
+      "filename": "round3-ruby-argv-system.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-script",
+      "filename": "round3-ruby-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-ruby-end-options",
+      "filename": "round3-ruby-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-ruby-encoding",
+      "filename": "round3-ruby-encoding.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-ruby-encoding-script",
+      "filename": "round3-ruby-encoding-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-perl-module",
+      "filename": "round3-perl-module.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-npx-short",
+      "filename": "round3-npx-short.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-npx-long",
+      "filename": "round3-npx-long.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-npx-attached",
+      "filename": "round3-npx-attached.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-npx-package",
+      "filename": "round3-npx-package.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-npx-safe-call",
+      "filename": "round3-npx-safe-call.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-npx-package-argv",
+      "filename": "round3-npx-package-argv.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapped-npx-call",
+      "filename": "round3-wrapped-npx-call.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009",
+        "MCL-013"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009",
+          "MCL-013"
+        ]
+      ]
+    },
+    {
+      "id": "round3-command-redirection",
+      "filename": "round3-command-redirection.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-command-append",
+      "filename": "round3-command-append.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-command-input",
+      "filename": "round3-command-input.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-literal-redirection",
+      "filename": "round3-literal-redirection.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-quoted-redirection",
+      "filename": "round3-quoted-redirection.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-escaped-redirection",
+      "filename": "round3-escaped-redirection.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-powershell-webclient",
+      "filename": "round3-powershell-webclient.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-webclient-case",
+      "filename": "round3-powershell-webclient-case.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-sink-parameter",
+      "filename": "round3-powershell-sink-parameter.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-call-syntax",
+      "filename": "round3-powershell-call-syntax.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-wrapped",
+      "filename": "round3-powershell-wrapped.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-inline",
+      "filename": "round3-powershell-inline.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-string",
+      "filename": "round3-powershell-string.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-comment",
+      "filename": "round3-powershell-comment.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-download-only",
+      "filename": "round3-powershell-download-only.jsonc",
+      "category": "warning-only",
+      "expectedRuleIds": [
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-powershell-script",
+      "filename": "round3-powershell-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-wrapper-assignment-data",
+      "filename": "round3-wrapper-assignment-data.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-wrapper-applet-boundary",
+      "filename": "round3-wrapper-applet-boundary.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-script-boundary",
+      "filename": "round3-wrapper-script-boundary.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-wrapper-env-boundary",
+      "filename": "round3-wrapper-env-boundary.jsonc",
+      "category": "dangerous",
+      "expectedRuleIds": [
+        "MCL-007",
+        "MCL-008",
+        "MCL-009"
+      ],
+      "expectedServerRuleIds": [
+        [
+          "MCL-007",
+          "MCL-008",
+          "MCL-009"
+        ]
+      ]
+    },
+    {
+      "id": "round3-wrapper-env-operand",
+      "filename": "round3-wrapper-env-operand.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-wrapper-sudo-list",
+      "filename": "round3-wrapper-sudo-list.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-wrapper-busybox-install",
+      "filename": "round3-wrapper-busybox-install.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-bash-rcfile-script",
+      "filename": "round3-bash-rcfile-script.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    },
+    {
+      "id": "round3-bash-end-options",
+      "filename": "round3-bash-end-options.jsonc",
+      "category": "valid",
+      "expectedRuleIds": [],
+      "expectedServerRuleIds": [
+        []
+      ]
+    }
+  ]
+}

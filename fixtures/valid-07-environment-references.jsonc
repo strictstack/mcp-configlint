@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "local-mcp",
+      "args": [
+        "--token",
+        "${env:MCP_TOKEN}"
+      ],
+      "env": {
+        "API_TOKEN": "${env:MCP_TOKEN}",
+        "PASSWORD": "$MCP_PASSWORD",
+        "CLIENT_SECRET": "%MCP_SECRET%"
+      }
+    }
+  }
+}

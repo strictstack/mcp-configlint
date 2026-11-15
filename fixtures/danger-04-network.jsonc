@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "example": {
+      "url": "http://192.168.40.20/mcp",
+      "host": "0.0.0.0"
+    }
+  }
+}

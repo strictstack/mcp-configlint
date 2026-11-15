@@ -1,0 +1,55 @@
+{
+  "name": "mcp-configlint",
+  "version": "0.1.0",
+  "description": "Offline static checks for MCP client configuration files: plaintext secrets, unsafe commands and insecure URLs, with JSON and SARIF output.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "Apache-2.0",
+  "author": {
+    "name": "StrictStack",
+    "email": "support@strictstack.tech",
+    "url": "https://strictstack.tech"
+  },
+  "homepage": "https://strictstackdocs.tech/mcp-configlint/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strictstack/mcp-configlint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strictstack/mcp-configlint/issues"
+  },
+  "exports": {
+    ".": "./src/index.mjs",
+    "./server": "./src/server.mjs"
+  },
+  "bin": {
+    "mcp-configlint": "bin/cli.mjs",
+    "mcp-configlint-mcp": "bin/mcp.mjs"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "README.md",
+    "LICENSE",
+    "LICENSES.json",
+    "server.json",
+    "docs/REGISTRY.md",
+    "docs/RESEARCH.md"
+  ],
+  "scripts": {
+    "test": "node scripts/run-tests.mjs",
+    "validate:registry": "python3 scripts/validate_registry.py"
+  },
+  "mcpName": "io.github.strictstack/mcp-configlint",
+  "keywords": [
+    "mcp",
+    "config",
+    "lint",
+    "sarif"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

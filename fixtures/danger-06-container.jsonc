@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "docker",
+      "args": [
+        "run",
+        "--privileged",
+        "--user=0",
+        "--volume=/:/host",
+        "--network=host",
+        "example-mcp@sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      ]
+    }
+  }
+}

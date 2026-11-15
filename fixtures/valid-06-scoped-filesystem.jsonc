@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "local-filesystem-mcp",
+      "args": [
+        "/workspace/project"
+      ],
+      "allowedDirectories": [
+        "/workspace/project/docs"
+      ]
+    }
+  }
+}

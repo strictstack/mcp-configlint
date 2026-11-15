@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "local-mcp",
+      "args": [
+        "--token",
+        "teste_NAO-USAR_a7B9c2D4e6F8g0H1j3K5m7N9"
+      ],
+      "env": {
+        "API_TOKEN": "teste_NAO-USAR_a7B9c2D4e6F8g0H1j3K5m7N9",
+        "OPAQUE_VALUE": "teste_NAO-USAR_q8W3e7R1t9Y2u6I4o0P5a8S3d7F1"
+      },
+      "headers": {
+        "Authorization": "Bearer sk-teste_NAO-USAR_A9b8C7d6E5f4G3h2J1k0L9m8"
+      },
+      "url": "https://service.example/mcp?api_key=teste_NAO-USAR_a7B9c2D4e6F8g0H1j3K5m7N9"
+    }
+  }
+}
